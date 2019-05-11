@@ -7,6 +7,7 @@ import cairosvg
 import subprocess
 
 manifest_data = {}
+search_data = {}
 input_files = glob.glob("./vectors/*/*.svg")
 
 def guard(result):
@@ -41,6 +42,7 @@ for input_file in input_files:
             subprocess.check_call("mkdir -p " + safe_output_directory, shell=True)
             subprocess.check_call("cairosvg " + safe_input_file + " -f png -W 200 -H 200 -o " + safe_output_file, shell=True)
 
+            # MANIFEST
             if issuer not in manifest_data.keys():
                 additional_search_terms = []
                 
@@ -54,10 +56,32 @@ for input_file in input_files:
                 }
 
             manifest_data[issuer]["icons"].append(issuer + "/" + filename + ".png")
+
+            # SEARCH
+            if issuer not in search_data.keys():
+                search_data[issuer] = [issuer + "/" + filename + ".png"]
+            elif issuer + "/" + filename + ".png" not in search_data[issuer]:
+                search_data[issuer].append(issuer + "/" + filename + ".png")
+
+            if "additional_search_terms" in information.keys():
+                for term in information["additional_search_terms"]:
+                    if term not in search_data.keys():
+                        search_data[term] = [issuer + "/" + filename + ".png"]
+                    elif issuer + "/" + filename + ".png" not in search_data[term]:
+                        search_data[term].append(issuer + "/" + filename + ".png")
+
+
     except:
         continue
 
 with open("dist/manifest.json", "w") as manifest_file:
     json.dump(manifest_data, manifest_file)
 
-print("Generation done!")
+print("Manifest JSON generation done!")
+
+with open("dist/search.json", "w") as search_file:
+    json.dump(search_data, search_file)
+
+print("Search JSON generation done!")
+
+print("Finished!")
