@@ -14,6 +14,8 @@ def guard(result):
         raise Exception("Guard failed!")
 
 for input_file in input_files:
+    print("Parsing " + input_file + "...")
+    
     filename = "".join(input_file.split("/")[-1:])[:-4]
     directory = "/".join(input_file.split("/")[:-1]) + "/"
     issuer = directory[10:-1]
@@ -40,9 +42,14 @@ for input_file in input_files:
             subprocess.check_call("cairosvg " + safe_input_file + " -f png -W 200 -H 200 -o " + safe_output_file, shell=True)
 
             if issuer not in manifest_data.keys():
+                additional_search_terms = []
+                
+                if "additional_search_terms" in information.keys():
+                    additional_search_terms = information["additional_search_terms"]
+
                 manifest_data[issuer] = {
                     "domain": information["domain"],
-                    "additional_search_terms": information["additional_search_terms"],
+                    "additional_search_terms": additional_search_terms,
                     "icons": []
                 }
 
