@@ -58,10 +58,11 @@ for input_file in input_files:
             manifest_data[issuer]["icons"].append(issuer + "/" + filename + ".png")
 
             # SEARCH
-            if issuer not in search_data.keys():
-                search_data[issuer] = [issuer + "/" + filename + ".png"]
-            elif issuer + "/" + filename + ".png" not in search_data[issuer]:
-                search_data[issuer].append(issuer + "/" + filename + ".png")
+            for issuer_part in issuer.split("-"):
+                if issuer_part not in search_data.keys():
+                    search_data[issuer_part] = [issuer + "/" + filename + ".png"]
+                elif issuer + "/" + filename + ".png" not in search_data[issuer_part]:
+                    search_data[issuer_part].append(issuer + "/" + filename + ".png")
 
             if "additional_search_terms" in information.keys():
                 for term in information["additional_search_terms"]:
@@ -69,7 +70,6 @@ for input_file in input_files:
                         search_data[term] = [issuer + "/" + filename + ".png"]
                     elif issuer + "/" + filename + ".png" not in search_data[term]:
                         search_data[term].append(issuer + "/" + filename + ".png")
-
 
     except:
         continue
