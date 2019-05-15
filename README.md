@@ -27,4 +27,18 @@
 
 # Contributing
 
-ToDo
+The example below shows how an icon can be added for the service "Twitter".
+
+1. Create the directory `./vectors/twitter`.
+2. Add a scalable SVG (that meets the [requirements](#svg-requirements)) at `./vectors/twitter/twitter.svg`.
+3. Add `./vectors/twitter/information.json` to the directory with [this](https://github.com/tijme/raivo-issuer-icons/blob/master/vectors/twitter/information.json) content. Aditionally, [search terms](https://github.com/tijme/raivo-issuer-icons/blob/master/vectors/microsoft-outlook/information.json) can be added.
+
+# SVG requirements
+
+* must be quare
+* must be scalable
+* must not include the doctype element
+* must start with the `<svg>` opening element
+* must end with the `</svg>` closing element
+
+For examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/tijme/raivo-issuer-icons/master/vectors/amazon/amazon.svg), [Adobe](https://raw.githubusercontent.com/tijme/raivo-issuer-icons/master/vectors/adobe/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/tijme/raivo-issuer-icons/master/vectors/bitbucket/bitbucket.svg).
