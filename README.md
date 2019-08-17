@@ -35,10 +35,10 @@ The example below shows how an icon can be added for the service "Twitter".
 
 # SVG requirements
 
-* must be quare
 * must be scalable
 * must not include the doctype element
 * must start with the `<svg>` opening element
 * must end with the `</svg>` closing element
+* recommended to be quare
 
 For examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/tijme/raivo-issuer-icons/master/vectors/amazon/amazon.svg), [Adobe](https://raw.githubusercontent.com/tijme/raivo-issuer-icons/master/vectors/adobe/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/tijme/raivo-issuer-icons/master/vectors/bitbucket/bitbucket.svg).
