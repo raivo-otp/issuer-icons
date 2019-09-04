@@ -4,9 +4,11 @@ import json
 import generate
 from PIL import Image
 
+
 def guard(result, message):
     if not result:
         sys.exit("Guard failed! " + message)
+
 
 with open("./dist/manifest.json", "r") as manifest_handle:
     manifest = json.loads(manifest_handle.read())
@@ -30,7 +32,7 @@ with open("./dist/manifest.json", "r") as manifest_handle:
             guard(os.path.isfile("./dist/" + icon), "PNG distribution file does not exist.")
 
             dist_size = os.path.getsize("./dist/" + icon)
-            guard(dist_size <= 20000, "PNG distribution icon must be smaller than 20KB.")
+            guard(dist_size <= 30000, "PNG distribution icon must be smaller than 30KB.")
 
             try:
                 dist_image = Image.open("./dist/" + icon)
