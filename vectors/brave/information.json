@@ -1,3 +1,6 @@
 {
-    "domain": "brave.com"
+    "domain": "brave.com",
+    "additional_search_terms": [
+        "browser"
+    ]
 }

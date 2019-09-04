@@ -1,3 +1,6 @@
 {
-    "domain": "opera.com"
+    "domain": "opera.com",
+    "additional_search_terms": [
+        "browser"
+    ]
 }
