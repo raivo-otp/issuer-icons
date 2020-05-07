@@ -1,3 +1,6 @@
 {
-    "domain": "earnwithdrop.com"
+    "domain": "earnwithdrop.com",
+    "additional_search_terms": [
+        "drop"
+    ]
 }
