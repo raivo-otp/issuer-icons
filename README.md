@@ -41,6 +41,7 @@ The example below shows how an icon can be added for the service "Twitter".
 * must start with the `<svg>` opening element
 * must end with the `</svg>` closing element
 * must be a vector (do not embed a PNG inside an SVG)
+* file and directory name must be lowercase without spaces (use dashes instead)
 * recommended to be square
 
 For examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket/bitbucket.svg).
