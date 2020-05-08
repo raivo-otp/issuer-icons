@@ -62,5 +62,9 @@ with open("./dist/manifest.json", "r") as manifest_handle:
             is_static_size = pattern.match(svg_contents)
             guard(not is_static_size, "Vector must not have a static width or height", icon)
 
+            pattern = re.compile(r'<svg[^>]*(viewBox) ?=.*?>', re.IGNORECASE)
+            has_viewbox = pattern.match(svg_contents)
+            guard(has_viewbox, "Vector must have a viewBox attribute", icon)
+
 
 print("Validation done, everything looks good!")
