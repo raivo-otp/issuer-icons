@@ -2,7 +2,7 @@ import os
 import re
 import sys
 import json
-# import generate
+import generate
 from PIL import Image
 
 
