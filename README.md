@@ -35,10 +35,12 @@ The example below shows how an icon can be added for the service "Twitter".
 
 # SVG requirements
 
-* must be scalable
+* must be scalable (must not have a static width/height)
+* must not have whitespace around the SVG (use [this](https://jsfiddle.net/hbcdroey/1/) JSFiddle to remove the whitespace)
 * must not include the doctype element
 * must start with the `<svg>` opening element
 * must end with the `</svg>` closing element
+* must be a vector (do not embed a PNG inside an SVG)
 * recommended to be square
 
 For examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket/bitbucket.svg).
