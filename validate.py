@@ -1,13 +1,15 @@
 import os
+import re
 import sys
 import json
-import generate
+# import generate
 from PIL import Image
 
 
 def guard(result, message, data):
     if not result:
-        sys.exit("Guard failed! " + str(message) + "\nGot data: " + str(data))
+        print('--------------------------------------------------------------')
+        sys.exit("Guard failed! " + str(message) + "\nFailed vector/image: " + str(data))
 
 
 with open("./dist/manifest.json", "r") as manifest_handle:
@@ -30,6 +32,7 @@ with open("./dist/manifest.json", "r") as manifest_handle:
             print("Evaluating icon " + icon + "...")
 
             guard(icon.islower(), "Folder and file must be lowercase.", icon)
+            guard(len(icon.split(' ')) == 1, "Folder and file must not contain a space.", icon)
 
             guard(os.path.isfile("./dist/" + icon), "PNG distribution file does not exist.", icon)
 
@@ -43,5 +46,21 @@ with open("./dist/manifest.json", "r") as manifest_handle:
                 guard(False, "PNG distribution icon is not a valid image.", icon)
 
             guard(dist_image.format == "PNG", "PNG distribution icon is not a PNG file.", icon)
+
+            try:
+                dist_image = open("./vectors/" + icon[0:-4] + ".svg", "r", encoding='utf-8')
+                svg_contents = dist_image.read().strip().lower()
+            except Exception as e:
+                guard(False, str(e), icon)
+
+            guard('data:' not in svg_contents, 'Vector may not contain embedded non-vector images', icon)
+            guard('base64' not in svg_contents, 'Vector may not contain embedded non-vector images', icon)
+            guard(svg_contents[0:4] == '<svg', "Vector must start with `<svg`", icon)
+            guard(svg_contents[-6:] == '</svg>', "Vector must end with `</svg>`", icon)
+
+            pattern = re.compile(r'<svg[^>]*(width|height) ?=.*?>', re.IGNORECASE)
+            is_static_size = pattern.match(svg_contents)
+            guard(not is_static_size, "Vector must not have a static width or height", icon)
+
 
 print("Validation done, everything looks good!")
