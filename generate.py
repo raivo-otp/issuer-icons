@@ -31,6 +31,10 @@ for input_file in input_files:
     safe_output_file = re.sub(r"[^a-z0-9-\./]+", "", output_file)
     safe_input_file = re.sub(r"[^a-z0-9-\./]+", "", input_file)
 
+    guard(safe_output_directory == output_directory, 'Folder and file must be lowercase, concisting of only the characters "a-z", "0-9" and "\'"')
+    guard(safe_output_file == output_file, 'Folder and file must be lowercase, concisting of only the characters "a-z", "0-9" and "\'"')
+    guard(safe_input_file == input_file, 'Folder and file must be lowercase, concisting of only the characters "a-z", "0-9" and "\'"')
+
     try:
         guard(len(safe_output_directory.split("..")) == 1, 'Directory may not contain 2 dots.', safe_output_directory)
         guard(len(safe_output_directory.split("/")) == 3, 'Directory may not contain more than 2 slashes.', safe_output_directory)
