@@ -1,21 +1,6 @@
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   x="0px"
-   y="0px"
-   viewBox="0 0 1024 1024"
-   style="enable-background:new 0 0 1024 1024;"
-   xml:space="preserve"
-   id="svg18"
-   sodipodi:docname="posteo.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
-   id="metadata24"><rdf:RDF><cc:Work
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve" id="svg18" sodipodi:docname="posteo.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata id="metadata24">
+
+	<rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
    id="defs22" /><sodipodi:namedview
@@ -25,20 +10,8 @@
    objecttolerance="10"
    gridtolerance="10"
    guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="640"
-   inkscape:window-height="480"
    id="namedview20"
-   showgrid="false"
-   inkscape:pagecheckerboard="true"
-   inkscape:zoom="0.23046875"
-   inkscape:cx="512"
-   inkscape:cy="512"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="svg18" />
+   showgrid="false"/>
 <style
    type="text/css"
    id="style2">
