@@ -1,3 +1,7 @@
 {
     "domain": "hey.com"
+    "additional_search_terms": [
+        "basecamp",
+        "email"
+    ]
 }
