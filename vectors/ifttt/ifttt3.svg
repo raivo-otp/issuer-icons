@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 500 500"><style>.st0{fill:#09f}.st1{fill:#f1422a}.st2{fill:#333}</style><title>Slice</title><g id="Page-1"><path id="Blue" class="st0" d="M0 0h500v313H0z"/><path id="Red" class="st1" d="M0 313h313v187H0z"/><path id="Gray" class="st2" d="M313 313h187v187H313z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><path d="M0 0h500v313H0z" fill="#09f"/><path d="M0 313h313v187H0z" fill="#f1422a"/><path d="M313 313h187v187H313z" fill="#333"/></svg>
