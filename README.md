@@ -36,7 +36,7 @@ The example below shows how an icon can be added for the service "Twitter".
 # SVG requirements
 
 * must be scalable (must not have a static width/height, use a viewBox instead)
-* must not have whitespace around the SVG (use [this](https://jsfiddle.net/hbcdroey/1/) JSFiddle to remove the whitespace)
+* must not have whitespace around the SVG (use [this](https://jsfiddle.net/0mLp9vgk/) JSFiddle to remove the whitespace)
 * must not include the doctype element
 * must start with the `<svg>` opening element
 * must end with the `</svg>` closing element
