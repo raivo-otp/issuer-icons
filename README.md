@@ -4,7 +4,7 @@
 <h1 align="center">Raivo OTP issuer icons</h1>
 <p align="center">
     <a href="https://github.com/raivo-otp/ios-application/blob/master/LICENSE.md"><img src="https://raw.finnwea.com/shield/?firstText=License&secondText=CC%20BY-NC%204.0" /></a>
-    <a href="https://travis-ci.org/raivo-otp/issuer-icons"><img src="https://raw.finnwea.com/shield/?typeKey=TravisBuildStatus&typeValue1=tijme/raivo-issuer-icons&typeValue2=master" /></a>
+    <a href="https://travis-ci.org/raivo-otp/issuer-icons"><img src="https://raw.finnwea.com/vector-shields-v1/?typeKey=TravisBuildStatus&typeValue1=raivo-otp/issuer-icons&typeValue2=master" /></a>
     <br/>
     <b>This repository contains icons (including build scripts) for issuers that can be used in Raivo OTP</b>
     <br/>
