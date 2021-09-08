@@ -25,3 +25,13 @@ jobs:
       # Validation
       - name: Validate all icons and metadata
         run: python validate.py
+
+  # Build
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with: 
+          name: dist
+          path: dist
