@@ -33,6 +33,18 @@ jobs:
           files: dist/
           dest: icons.zip
 
+      # Get branch
+      - name: Extract branch name
+        id: release_branch
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+
+      # Get date
+      - name: Extract current date
+        id: release_date
+        shell: bash
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+
       # Create release
       - name: Create Release
         id: create_release
@@ -40,8 +52,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: tag-${{ steps.release_branch.outputs.branch }}-${{ steps.release_date.outputs.date }}
+          release_name: release-${{ steps.release_branch.outputs.branch }}-${{ steps.release_date.outputs.date }}
           draft: false
           prerelease: false
 
