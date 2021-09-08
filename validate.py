@@ -2,15 +2,15 @@ import os
 import re
 import sys
 import json
-import generate
+# import generate
 from PIL import Image
 
 
 def guard(result, message, data):
     if not result:
         print('--------------------------------------------------------------')
-        sys.exit("Guard failed! " + str(message) + "\nFailed vector/image: " + str(data))
-
+        print("Guard failed! " + str(message) + "\nFailed vector/image: " + str(data))
+        sys.exit(1)
 
 with open("./dist/manifest.json", "r") as manifest_handle:
     manifest = json.loads(manifest_handle.read())
@@ -19,12 +19,12 @@ with open("./dist/manifest.json", "r") as manifest_handle:
         print("Evaulating issuer " + issuer + "...")
 
         guard("domain" in information.keys(), "Domain is required.", issuer)
-        guard(len(information["domain"].split(".")) == 2, "Domain must have a maximum of one [dot] (e.g. 'twitter.com').", issuer)
+        guard(len(information["domain"].split(".")) <= 3, "Domain must have a maximum of one [dot] (e.g. 'twitter.com').", issuer)
         guard(len(information["domain"].split(".")[0]) > 1, "Domain must have characters before the [dot].", issuer)
         guard(len(information["domain"].split(".")[1]) > 1, "Domain must have characters behind the [dot].", issuer)
 
         if "additional_search_terms" in information.keys():
-            guard(len(information["additional_search_terms"]) <= 10, "A maximum of 10 additional search terms are allowed.", issuer)
+            guard(len(information["additional_search_terms"]) <= 15, "A maximum of 15 additional search terms are allowed.", issuer)
 
         guard("icons" in information.keys(), "At least one icon is required.", issuer)
 
@@ -62,7 +62,7 @@ with open("./dist/manifest.json", "r") as manifest_handle:
             is_static_size = pattern.match(svg_contents)
             guard(not is_static_size, "Vector must not have a static width or height", icon)
 
-            pattern = re.compile(r'<svg[^>]*(viewBox) ?=.*?>', re.IGNORECASE)
+            pattern = re.compile(r'<svg[^>]*(viewBox) ?=.*?"[^>]*>', re.IGNORECASE)
             has_viewbox = pattern.match(svg_contents)
             guard(has_viewbox, "Vector must have a viewBox attribute", icon)
 

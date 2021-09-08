@@ -1,0 +1,31 @@
+name: Validate SVG's & build artifact with PNG's
+
+# Triggers
+on:
+  push:
+    branches: [ master, feature/artifact ]
+  pull_request:
+    branches: [ master, feature/artifact ]
+
+  # Allow manual dispatch
+  workflow_dispatch:
+
+# Jobs to run
+jobs:
+  # Validate
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # Environment
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
+
+      # Dependencies
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Validation
+      - name: Run a one-line script
+        run: python validate.py
