@@ -55,7 +55,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: tag-${{ steps.release_branch.outputs.branch }}-${{ steps.release_date.outputs.datetime }}
+          tag_name: tag-${{ github.ref }}
           release_name: Release ${{ steps.release_date.outputs.datetime }}
           draft: false
           prerelease: false
