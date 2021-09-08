@@ -1,13 +1,9 @@
 name: Validate SVG's & build artifact with PNG's
 
-# Triggers
+# Triggers (push, pull request and manual)
 on:
   push:
-    branches: [ master, feature/artifact ]
   pull_request:
-    branches: [ master, feature/artifact ]
-
-  # Allow manual dispatch
   workflow_dispatch:
 
 # Jobs to run
@@ -27,5 +23,5 @@ jobs:
         run: pip install -r requirements.txt
 
       # Validation
-      - name: Run a one-line script
+      - name: Validate all icons and metadata
         run: python validate.py
