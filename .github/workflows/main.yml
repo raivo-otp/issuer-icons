@@ -3,8 +3,11 @@ name: Validate SVG's & build artifact with PNG's
 # Triggers (push, pull request and manual)
 on:
   push:
+    branches:
+      - master
   pull_request:
-  workflow_dispatch:
+    branches:
+      - master
 
 # Jobs to run
 jobs:
@@ -43,7 +46,7 @@ jobs:
       - name: Extract current date
         id: release_date
         shell: bash
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        run: echo "::set-output name=datetime::$(date +'%Y-%m-%d %H:%M')"
 
       # Create release
       - name: Create Release
@@ -52,8 +55,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: tag-${{ steps.release_branch.outputs.branch }}-${{ steps.release_date.outputs.date }}
-          release_name: release-${{ steps.release_branch.outputs.branch }}-${{ steps.release_date.outputs.date }}
+          tag_name: tag-${{ steps.release_branch.outputs.branch }}-${{ steps.release_date.outputs.datetime }}
+          release_name: Release ${{ steps.release_date.outputs.datetime }}
           draft: false
           prerelease: false
 
