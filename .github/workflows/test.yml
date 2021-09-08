@@ -31,6 +31,10 @@ jobs:
           python-version: '3.7' # Version range or exact version of a Python version to use, using SemVer's version range syntax
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
 
-      # Runs a single command using the runners shell
+      # Dependencies
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Validation
       - name: Run a one-line script
         run: python validate.py
