@@ -22,13 +22,36 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Generate & validate
+      # Generate icons & validate icons
       - name: Validate all icons and metadata
         run: python validate.py
 
-      # Upload
+      # Create artifact
+      - name: Create artifact
+        uses: papeloto/action-zip@v1
+        with:
+          files: dist/
+          dest: icons.zip
+
+      # Create release
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+
+      # Upload artifact
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
-        with: 
-          name: dist
-          path: dist
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./icons.zip
+          asset_name: icons.zip
+          asset_content_type: application/zip
