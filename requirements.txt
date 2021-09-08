@@ -1,3 +1,3 @@
 CairoSVG==2.5.1
 cairocffi==1.1.0
-Pillow==8.2.0
+Pillow==8.3.2
