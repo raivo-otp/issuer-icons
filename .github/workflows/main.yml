@@ -31,7 +31,6 @@ jobs:
 
       # Create artifact
       - name: Create artifact
-        condition " if: github.event_name == 'push'"
         uses: papeloto/action-zip@v1
         with:
           files: dist/
@@ -39,21 +38,18 @@ jobs:
 
       # Get branch
       - name: Extract branch name
-        condition " if: github.event_name == 'push'"
         id: release_branch
         shell: bash
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
 
       # Get date
       - name: Extract current date
-        condition " if: github.event_name == 'push'"
         id: release_date
         shell: bash
         run: echo "::set-output name=datetime::$(date +'%Y-%m-%d %H:%M')"
 
       # Create release
       - name: Create Release
-        condition " if: github.event_name == 'push'"
         id: create_release
         uses: actions/create-release@v1
         env:
@@ -66,7 +62,6 @@ jobs:
 
       # Upload artifact
       - name: Upload artifact
-        condition " if: github.event_name == 'push'"
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
