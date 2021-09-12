@@ -42,11 +42,17 @@ jobs:
         shell: bash
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
 
-      # Get date
+      # Get date (for release name)
       - name: Extract current date
-        id: release_date
+        id: release_date_name
         shell: bash
         run: echo "::set-output name=datetime::$(date +'%Y-%m-%d %H:%M')"
+
+      # Get date (for release tag)
+      - name: Extract current date
+        id: release_date_tag
+        shell: bash
+        run: echo "::set-output name=datetime::$(date +'%Y-%m-%d-%H-%M')"
 
       # Create release
       - name: Create Release
@@ -55,8 +61,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: tag-${{ github.ref }}
-          release_name: Release ${{ steps.release_date.outputs.datetime }}
+          tag_name: tag-${{ steps.release_branch.outputs.branch }}-${{ steps.release_date_tag.outputs.datetime }}
+          release_name: Release ${{ steps.release_date_name.outputs.datetime }}
           draft: false
           prerelease: false
 
