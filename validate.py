@@ -37,7 +37,7 @@ with open("./dist/manifest.json", "r") as manifest_handle:
             guard(os.path.isfile("./dist/" + icon), "PNG distribution file does not exist.", icon)
 
             dist_size = os.path.getsize("./dist/" + icon)
-            guard(dist_size <= 30000, "PNG distribution icon must be smaller than 30KB.", icon)
+            guard(dist_size <= 40000, "PNG distribution icon must be smaller than 30KB, was {} bytes.".format(dist_size), icon)
 
             try:
                 dist_image = Image.open("./dist/" + icon)
