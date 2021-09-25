@@ -1,7 +1,3 @@
 {
-    "domain": "id.me",
-    "additional_search_terms": [
-	"id.me",
-    "id me"
-    ]
+    "domain": "id.me"
 }
