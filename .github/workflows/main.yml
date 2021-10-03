@@ -27,7 +27,7 @@ jobs:
 
       # Generate icons & validate icons
       - name: Validate all icons and metadata
-        run: python validate.py
+        run: python scripts/validate.py
 
       # # Create artifact
       # - name: Create artifact

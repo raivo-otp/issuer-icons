@@ -5,6 +5,7 @@
 <p align="center">
     <a href="https://github.com/raivo-otp/ios-application/blob/master/LICENSE.md"><img src="https://raw.finnwea.com/shield/?firstText=License&secondText=CC%20BY-NC%204.0" /></a>
     <a href="https://travis-ci.org/raivo-otp/issuer-icons"><img src="https://raw.finnwea.com/vector-shields-v1/?typeKey=TravisBuildStatus&typeValue1=raivo-otp/issuer-icons&typeValue2=master" /></a>
+    <a href="https://github.com/raivo-otp/issuer-icons/releases"><img src="https://raw.finnwea.com/vector-shields-v1/?typeKey=SemverVersion&typeValue1=raivo-otp&typeValue2=issuer-icons&typeValue4=Release&cache=4"></a>
     <br/>
     <b>This repository contains icons (including build scripts) for issuers that can be used in Raivo OTP</b>
     <br/>
@@ -44,9 +45,9 @@ The example below shows how icons can be added for the services "Microsoft" and 
 * Must start with the `<svg>` opening element
 * Must end with the `</svg>` closing element
 * Must be scalable (must not have static width/height attributes, use a viewBox instead).
-* Must not contain whitespace around the SVG ([this](https://jsfiddle.net/u9x423ph/2/) JSFiddle could help to remove whitespace).
-* Must not include the doctype element.
-* The file and directory name must be lowercase without spaces (use dashes instead)
+* Must **not** contain whitespace around the SVG ([this](https://jsfiddle.net/u9x423ph/2/) JSFiddle could help to remove whitespace).
+* Must **not** include the doctype element.
+* The file and directory name must be lowercase.
 
 **Can:**
 * Can be any color (including white and black).
