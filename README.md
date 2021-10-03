@@ -53,4 +53,4 @@ The example below shows how icons can be added for the services "Microsoft" and 
 * Can be any color (including white and black).
     * Raivo OTP will apply effects so the icons are correctly visible in light/dark mode.
 
-For best practice examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket/bitbucket.svg). Pull requests that do not meet the requirements will not be merged.
+For best practice examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon.com/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe.com/adobe.svg) or [Bitbucket](https://github.com/raivo-otp/issuer-icons/blob/master/vectors/bitbucket.com/bitbucket.svg). Pull requests that do not meet the requirements will not be merged.
