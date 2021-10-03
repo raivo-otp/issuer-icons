@@ -14,16 +14,16 @@
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/reddit/reddit-alien.svg?sanitize=true" width="75" />
-    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket/bitbucket.svg?sanitize=true" width="75" />
-    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/google/google.svg?sanitize=true" width="75" /> 
-    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/whatsapp/whatsapp.svg?sanitize=true" width="75" />
-    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon/amazon.svg?sanitize=true" width="75" /> 
-    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/atlassian/atlassian.svg?sanitize=true" width="75" />
-    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/spotify/spotify.svg?sanitize=true" width="75" />
-    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/slack/slack.svg?sanitize=true" width="75" />
-    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/facebook-messenger/facebook-messenger.svg?sanitize=true" width="75" />
-    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/gitlab/gitlab.svg?sanitize=true" width="75" />
+    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/reddit.com/reddit.svg?sanitize=true" width="75" />
+    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket.com/bitbucket.svg?sanitize=true" width="75" />
+    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/google.com/google.svg?sanitize=true" width="75" /> 
+    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/whatsapp.com/whatsapp.svg?sanitize=true" width="75" />
+    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon.com/amazon.svg?sanitize=true" width="75" /> 
+    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/atlassian.com/atlassian.svg?sanitize=true" width="75" />
+    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/spotify.com/spotify.svg?sanitize=true" width="75" />
+    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/slack.com/slack.svg?sanitize=true" width="75" />
+    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/facebook.com/facebook-messenger.svg?sanitize=true" width="75" />
+    <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/gitlab.com/gitlab.svg?sanitize=true" width="75" />
 </p>
 
 # Contributing
@@ -53,4 +53,4 @@ The example below shows how icons can be added for the services "Microsoft" and 
 * Can be any color (including white and black).
     * Raivo OTP will apply effects so the icons are correctly visible in light/dark mode.
 
-For best practice examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon.com/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe.com/adobe.svg) or [Bitbucket](https://github.com/raivo-otp/issuer-icons/blob/master/vectors/bitbucket.com/bitbucket.svg). Pull requests that do not meet the requirements will not be merged.
+For best practice examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon.com/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe.com/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket.com/bitbucket.svg). Pull requests that do not meet the requirements will not be merged.
