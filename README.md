@@ -1,4 +1,3 @@
-
 <p align="center">
     <img src="https://raw.githubusercontent.com/raivo-otp/ios-application/master/Assets/app-icon.png" width="200"/>
 </p>
@@ -28,11 +27,11 @@
 
 # Contributing
 
-The example below shows how an icon can be added for the service "Twitter".
+The example below shows how icons can be added for the services "Microsoft" and "Microsoft OneDrive".
 
-1. Create the directory with the primary domain name `./vectors/twitter.com`.
-2. Add a scalable SVG (that meets the [requirements](#svg-requirements)) at `./vectors/twitter.com/icon-primary.svg`.
-3. Add `./vectors/twitter.com/information.json` to the directory with [this](https://github.com/raivo-otp/issuer-icons/blob/master/vectors/twitter/information.json) content. Additionally, [search terms](https://github.com/raivo-otp/issuer-icons/blob/master/vectors/microsoft-outlook/information.json) can be added.
+1. Create the directory with the primary domain name `./vectors/microsoft.com`.
+2. Add a scalable Microsoft logo SVG (that meets the [requirements](#svg-requirements)) at `./vectors/microsoft.com/microsoft.svg`.
+3. Add a scalable Microsoft OneDrive logo SVG (that meets the [requirements](#svg-requirements)) at `./vectors/microsoft.com/microsoft-onedrive.svg`.
 
 # SVG requirements
 
@@ -45,7 +44,7 @@ The example below shows how an icon can be added for the service "Twitter".
 * Must start with the `<svg>` opening element
 * Must end with the `</svg>` closing element
 * Must be scalable (must not have static width/height attributes, use a viewBox instead).
-* Must not contain whitespace around the SVG ([this](https://jsfiddle.net/0mLp9vgk/) JSFiddle could help to remove whitespace).
+* Must not contain whitespace around the SVG ([this](https://jsfiddle.net/u9x423ph/2/) JSFiddle could help to remove whitespace).
 * Must not include the doctype element.
 * The file and directory name must be lowercase without spaces (use dashes instead)
 
@@ -53,4 +52,4 @@ The example below shows how an icon can be added for the service "Twitter".
 * Can be any color (including white and black).
     * Raivo OTP will apply effects so the icons are correctly visible in light/dark mode.
 
-For best practice examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket/bitbucket.svg).
+For best practice examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket/bitbucket.svg). Pull requests that do not meet the requirements will not be merged.
