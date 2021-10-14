@@ -78,7 +78,7 @@ def main():
             if issuer_part in search_denylist:
                 continue
 
-            if len(issuer_part) <= 2:
+            if len(issuer_part) <= 1:
                 continue
 
             if issuer_part not in search_data.keys():
