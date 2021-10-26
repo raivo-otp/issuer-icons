@@ -46,6 +46,8 @@ def main():
     except:
         vectors = []
 
+    print('Running validation on {} icons.'.format(len(vectors)))
+
     # Generic validations
     guard(len(vectors) >= 450, 'It looks like many vectors were deleted. There are only {} left while there should be more than 450. Did you delete any per accident?'.format(len(vectors)))
 
@@ -88,11 +90,11 @@ def main():
         guard(svg_body[0:4] == '<svg', "Vector must start with `<svg`", vector)
         guard(svg_body[-6:] == '</svg>', "Vector must end with `</svg>`", vector)
 
-        pattern = re.compile(r'<svg[^>]*(width|height) ?=.*?>', re.IGNORECASE)
+        pattern = re.compile(r'<svg[^>]*(width|height) ?=[^>]*?>', re.MULTILINE|re.IGNORECASE)
         is_static_size = pattern.match(svg_body)
         guard(not is_static_size, 'Vector must not have static width and/or height attributes. Use a viewBox instead.', vector)
 
-        pattern = re.compile(r'<svg[^>]*(viewBox) ?=.*?"[^>]*>', re.IGNORECASE)
+        pattern = re.compile(r'<svg[^>]*(viewBox) ?=[^>]*?>', re.MULTILINE|re.IGNORECASE)
         has_viewbox = pattern.match(svg_body)
         guard(has_viewbox, 'Vector must have a viewBox attribute', vector)
 
