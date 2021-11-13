@@ -1,5 +1,5 @@
-<svg clip-rule="evenodd" fill-rule="evenodd" stroke-miterlimit="10" version="1.1" viewBox="55.561 65.283 388.88 369.43" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-    <g transform="matrix(24.305 0 0 24.305 6.9508 -.34072)">
-        <path d="m18 9.6-1-2.8-5.5 1.8v-5.9h-3v5.9l-5.5-1.8-1 2.8 5.6 1.8-3.4 4.7 2.4 1.8 3.4-4.7 3.4 4.7 2.5-1.8-3.5-4.7 5.6-1.8z" fill="#94c502" fill-rule="nonzero" stroke="#94c502" stroke-width=".5px"/>
+<svg width="100%" height="100%" viewBox="55.5605583190918 65.28250885009766 388.8783874511719 369.4344787597656" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g id="star_eop" transform="matrix(24.3049,0,0,24.3049,6.95076,-0.340719)">
+        <path d="M18,9.6L17,6.8L11.5,8.6L11.5,2.7L8.5,2.7L8.5,8.6L3,6.8L2,9.6L7.6,11.4L4.2,16.1L6.6,17.9L10,13.2L13.4,17.9L15.9,16.1L12.4,11.4L18,9.6Z" style="fill:rgb(148,197,2);fill-rule:nonzero;stroke:rgb(148,197,2);stroke-width:0.5px;"></path>
     </g>
 </svg>
