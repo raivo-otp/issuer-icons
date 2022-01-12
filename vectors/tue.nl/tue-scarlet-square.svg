@@ -1,4 +1,4 @@
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="svg2" xml:space="preserve" viewBox="0 0.0000152587890625 204.0946502685547 204.0946502685547">
+<svg version="1.1" id="svg2" xml:space="preserve" viewBox="5.363617674447596e-7 0.000030517578125 136.1650390625 54.55677795410156" sodipodi:docname="tue.svg" width="136.16504" height="54.556782" inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview id="namedview420" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" showgrid="false" inkscape:zoom="11.767938" inkscape:cx="70.870532" inkscape:cy="18.779841" inkscape:window-width="1916" inkscape:window-height="917" inkscape:window-x="1920" inkscape:window-y="1239" inkscape:window-maximized="1" inkscape:current-layer="g10"></sodipodi:namedview>
     <defs id="defs6">
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
         <path d="M 0,153.071 H 153.071 V 0 H 0 Z" id="path16"></path>
@@ -10,8 +10,8 @@
         <path d="M 0,153.071 H 153.071 V 0 H 0 Z" id="path42"></path>
       </clipPath>
     </defs>
-    <g id="g10" inkscape:groupmode="layer" inkscape:label="TUe-logo-square-scarlet-rgb" transform="matrix(1.3333333,0,0,-1.3333333,0,204.09467)">
-      <g id="g12">
+    <g id="g10" inkscape:groupmode="layer" inkscape:label="TUe-logo-square-scarlet-rgb" transform="matrix(1.3333333,0,0,-1.3333333,-33.668008,129.23629)">
+      <g id="g12" transform="matrix(0.66716612,0,0,0.26731117,25.251007,56.009619)">
         <g id="g14" clip-path="url(#clipPath18)">
           <g id="g20">
             <g id="g22"></g>
@@ -24,7 +24,7 @@
         </g>
       </g>
       <g id="g34" transform="translate(43.1012,87.5177)">
-        <path d="M 0,0 V -26.324 H -8.22 V 0 h -9.613 V 6.839 H 9.613 L 9.613,0 Z" style="fill:#c81919;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path36"></path>
+        <path d="M 0,0 V -26.324 H -8.22 V 0 h -9.613 V 6.839 H 9.613 V 0 Z" style="fill:#c81919;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path36"></path>
       </g>
       <g id="g38">
         <g id="g40" clip-path="url(#clipPath44)">
