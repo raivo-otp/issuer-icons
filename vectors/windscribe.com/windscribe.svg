@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1">
-    
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-70" fill="#FFFFFF">
-            <g id="Group-60">
-                <polygon id="Path-2" fill-opacity="0.5" points="6 24 11.5 11.5 24 6 36.5 11.5 42 24 36 24 36 14 31 14 28 17 28 24 20 24 20 17 17 14 12 14 12 24"></polygon>
-                <polygon id="Path-2" points="12 14 12 35 17.5 35 24 28 30.5 35 36 35 36 14 31 14 31 29 24 21.5 17 29 17 14"></polygon>
-                <path d="M38.5,9.5 L24,3.5 L9.5,9.5 L3.5,24 L9.5,38.5 L24,44.5 L38.5,38.5 L44.5,24 L38.5,9.5 Z M41,41 L24,48 L7,41 L0,24 L7,7 L24,0 L41,7 L48,24 L41,41 Z" id="Shape"></path>
-            </g>
-            
-            
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="5.00 5.00 54.00 54.00"><linearGradient id="SoI8zZeL8nxwM9wbc5HRHa" x1="32" x2="32" y1="60.534" y2="8.806" gradientTransform="matrix(1 0 0 -1 0 66)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#SoI8zZeL8nxwM9wbc5HRHa)" d="M32.005,59c-0.13,0-0.261-0.025-0.383-0.076l-18.383-7.62 c-0.245-0.102-0.439-0.296-0.541-0.541l-7.622-18.38c-0.102-0.245-0.102-0.521,0-0.766l7.622-18.38 c0.102-0.245,0.296-0.439,0.541-0.541l18.383-7.62c0.244-0.102,0.521-0.102,0.766,0l18.383,7.62 c0.245,0.102,0.439,0.296,0.541,0.541l7.612,18.38c0.102,0.245,0.102,0.521,0,0.766l-7.612,18.38 c-0.102,0.245-0.296,0.439-0.541,0.541l-18.383,7.62C32.266,58.975,32.135,59,32.005,59z M14.388,49.614l17.617,7.304l17.617-7.304 L56.918,32l-7.296-17.614L32.005,7.082l-17.617,7.304L7.083,32L14.388,49.614z"></path><linearGradient id="SoI8zZeL8nxwM9wbc5HRHb" x1="32" x2="32" y1="45.457" y2="23.693" gradientTransform="matrix(1 0 0 -1 0 66)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#SoI8zZeL8nxwM9wbc5HRHb)" d="M45,21v22h-3.65c-1.43,0-2.79-0.61-3.74-1.68L32,35.01l-5.61,6.31 C25.44,42.39,24.08,43,22.65,43H19V21h4v17.93c0.15-0.06,0.29-0.14,0.4-0.26l8.6-9.68l8.6,9.67c0.11,0.13,0.25,0.21,0.4,0.27V21H45z"></path></svg>
