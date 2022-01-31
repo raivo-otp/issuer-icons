@@ -1,6 +1,5 @@
-<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.00 50.00 500.00 400.00">
   <g transform="matrix(1.886789, 0, 0, -1.886789, -351.413971, 1414.84082)">
-    <title>omg.lol</title>
     <g id="body" transform="matrix(1, 0, 0, 1, 318.75, 511.366486)">
       <title>Body</title>
       <path d="m 0,0 c -20.346,0 -40.691,7.762 -56.215,23.285 l -53,53 c -31.047,31.047 -31.047,81.383 0,112.43 29.997,29.997 78,31.012 109.215,3.044 31.216,27.967 79.219,26.952 109.215,-3.044 31.047,-31.047 31.047,-81.383 0,-112.43 l -53,-53 C 40.692,7.762 20.346,0 0,0" style="fill:#ff69ad;fill-opacity:1;fill-rule:nonzero;stroke:none" id="body-path">
