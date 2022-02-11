@@ -1,35 +1,7 @@
 <svg
-   version="1.1"
-   id="Ebene_1"
-   x="0px"
-   y="0px"
    viewBox="0 0 44.830002 40.509998"
-   xml:space="preserve"
-   sodipodi:docname="mailbox.org-logo-sq.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs19" /><sodipodi:namedview
-   id="namedview17"
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1.0"
-   inkscape:pageshadow="2"
-   inkscape:pageopacity="0.0"
-   inkscape:pagecheckerboard="0"
-   showgrid="false"
-   inkscape:zoom="8.0769231"
-   inkscape:cx="18.509524"
-   inkscape:cy="38.938095"
-   inkscape:window-width="2560"
-   inkscape:window-height="1343"
-   inkscape:window-x="1920"
-   inkscape:window-y="0"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="g14" />
+   >
 <style
    type="text/css"
    id="style2">
@@ -45,18 +17,6 @@
      height="78"
      x="0"
      y="0" /></defs>
-	<clipPath
-   id="SVGID_2_">
-		<use
-   xlink:href="#SVGID_1_"
-   style="overflow:visible"
-   id="use7"
-   x="0"
-   y="0"
-   width="100%"
-   height="100%" />
-	</clipPath>
-	
 	<path
    class="st0"
    d="m 60.64,40.51 h 40.67 V 17.46 L 85.19,28.44 C 84.04,29.22 82.9,28.43 82.9,28.43 L 56.48,10.26 v 26.09 c 0,0 0,4.16 4.16,4.16 M 84.1,23.19 101.31,11.4 V 0 H 60.64 c 0,0 -4.16,0 -4.16,4.16 v 0.11 z"
