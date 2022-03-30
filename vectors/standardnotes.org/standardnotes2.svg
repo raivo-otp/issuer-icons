@@ -2,6 +2,18 @@
   <path d="M141.742 149.217V131.054C141.742 126.494 137.907 122.798 133.176 122.798C128.445 122.798 124.61 126.494 124.61 131.054V149.217H117.757V131.054C117.757 122.847 124.661 116.194 133.176 116.194C141.692 116.194 148.595 122.847 148.595 131.054V149.217H141.742Z" fill="url(#paint0_linear)"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M109.91 94.2156C101.243 94.2156 94.2161 101.161 94.2161 109.729V156.271C94.2161 164.839 101.243 171.784 109.91 171.784H156.993C165.66 171.784 172.687 164.839 172.687 156.271V109.729C172.687 101.161 165.66 94.2156 156.993 94.2156H109.91ZM156.993 101.003H109.91C105.035 101.003 101.082 104.91 101.082 109.729V156.271C101.082 161.09 105.035 164.997 109.91 164.997H156.993C161.868 164.997 165.821 161.09 165.821 156.271V109.729C165.821 104.91 161.868 101.003 156.993 101.003Z" fill="url(#paint1_linear)"></path>
   <defs>
+    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.0169173" height="0.0169173">
+      <use xlink:href="#image0" transform="scale(0.0018797)"></use>
+    </pattern>
+    <filter id="filter0_d" x="9" y="25" width="248.001" height="248.001" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+      <feOffset dy="16"></feOffset>
+      <feGaussianBlur stdDeviation="16"></feGaussianBlur>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"></feColorMatrix>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+    </filter>
     <linearGradient id="paint0_linear" x1="133.452" y1="94.2156" x2="142.331" y2="170.754" gradientUnits="userSpaceOnUse">
       <stop stop-color="#2173E7"></stop>
       <stop offset="1" stop-color="#0E5CC9"></stop>
@@ -10,5 +22,6 @@
       <stop stop-color="#2173E7"></stop>
       <stop offset="1" stop-color="#0E5CC9"></stop>
     </linearGradient>
+    <image id="image0" width="9" height="9" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAtSURBVHgB1dChDQAACAPBHwn23wVWAYMkxdKkVacKkF1jj80oyDfoFxgD1UdRPHMLOJmKMAEAAAAASUVORK5CYII="></image>
   </defs>
 </svg>
