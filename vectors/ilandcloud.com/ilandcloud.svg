@@ -1,5 +1,8 @@
 <svg stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 800 800" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs/>
+<clipPath id="ArtboardFrame">
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1" vectornator:layerName="Layer 1">
 <path d="M-2.08449-2.05857L803.888-2.05857L803.888 801.947L-2.08449 801.947L-2.08449-2.05857Z" fill="#ffffff" fill-rule="evenodd" opacity="1" stroke="none"/>
 <path d="M17.1462 313.896C17.1462 256.502 63.6736 209.974 121.068 209.974C178.463 209.974 224.99 256.502 224.99 313.896C224.99 371.291 178.463 417.818 121.068 417.818C63.6736 417.818 17.1462 371.291 17.1462 313.896Z" fill="#b7e1f3" fill-rule="evenodd" opacity="1" stroke="none"/>
 <path d="M98.504 459.422C98.504 379.124 163.598 314.03 243.896 314.03C324.193 314.03 389.287 379.124 389.287 459.422C389.287 539.72 324.193 604.814 243.896 604.814C163.598 604.814 98.504 539.72 98.504 459.422Z" fill="#ffffff" fill-rule="evenodd" opacity="1" stroke="none"/>
