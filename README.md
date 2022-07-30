@@ -54,3 +54,15 @@ The example below shows how icons can be added for the services "Microsoft" and 
     * Raivo OTP will apply effects so the icons are correctly visible in light/dark mode.
 
 For best practice examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon.com/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe.com/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket.com/bitbucket.svg). Pull requests that do not meet the requirements will not be merged.
+
+## Security
+
+If you discover a security vulnerability, we would like to know about it so we can take steps to address it as quickly as possible. Please refer to the [security policy](https://github.com/raivo-otp/issuer-icons/blob/master/SECURITY.md) for information on reporting vulnerabilities.
+
+## Privacy
+
+Raivo does not collect personally identifiable information in any way. Please refer to the [privacy policy](https://github.com/raivo-otp/issuer-icons/blob/master/PRIVACY.md) for information.
+
+## License
+
+Copyright © 2022 Tijme Gommers. All rights reserved. View [LICENSE.md](https://github.com/raivo-otp/issuer-icons/blob/master/LICENSE.md) for the full license.
