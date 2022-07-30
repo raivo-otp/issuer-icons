@@ -26,7 +26,7 @@
     <img src="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/gitlab.com/gitlab.svg?sanitize=true" width="75" />
 </p>
 
-# Contributing
+## Contributing
 
 The example below shows how icons can be added for the services "Microsoft" and "Microsoft OneDrive".
 
@@ -34,7 +34,7 @@ The example below shows how icons can be added for the services "Microsoft" and 
 2. Add a scalable Microsoft logo SVG (that meets the [requirements](#svg-requirements)) at `./vectors/microsoft.com/microsoft.svg`.
 3. Add a scalable Microsoft OneDrive logo SVG (that meets the [requirements](#svg-requirements)) at `./vectors/microsoft.com/microsoft-onedrive.svg`.
 
-# SVG requirements
+### SVG requirements
 
 **Must:**
 * Must be a vector SVG
