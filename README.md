@@ -34,7 +34,9 @@ The example below shows how icons can be added for the services "Microsoft" and 
 2. Add a scalable Microsoft logo SVG (that meets the [requirements](#svg-requirements)) at `./vectors/microsoft.com/microsoft.svg`.
 3. Add a scalable Microsoft OneDrive logo SVG (that meets the [requirements](#svg-requirements)) at `./vectors/microsoft.com/microsoft-onedrive.svg`.
 
-### SVG requirements
+### Requirements
+
+If you want to contribute and add an issuer icon, make sure it adheres to the following requirements. Pull requests failing to meet these requirements will not be merged.
 
 **Must:**
 * Must be a vector SVG
@@ -53,7 +55,7 @@ The example below shows how icons can be added for the services "Microsoft" and 
 * Can be any color (including white and black).
     * Raivo OTP will apply effects so the icons are correctly visible in light/dark mode.
 
-For best practice examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon.com/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe.com/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket.com/bitbucket.svg). Pull requests that do not meet the requirements will not be merged.
+For best practice examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon.com/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe.com/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket.com/bitbucket.svg).
 
 ## Security
 
