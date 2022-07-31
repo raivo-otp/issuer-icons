@@ -7,7 +7,7 @@
     <a href="https://travis-ci.org/raivo-otp/issuer-icons"><img src="https://raw.finnwea.com/vector-shields-v1/?typeKey=TravisBuildStatus&typeValue1=raivo-otp/issuer-icons&typeValue2=master" /></a>
     <a href="https://github.com/raivo-otp/issuer-icons/releases"><img src="https://raw.finnwea.com/vector-shields-v1/?typeKey=SemverVersion&typeValue1=raivo-otp&typeValue2=issuer-icons&typeValue4=Release&cache=4"></a>
     <br/>
-    <b>This repository contains icons (including build scripts) for issuers that can be used in Raivo OTP</b>
+    <b>Vector icons (including test, build and deployment scripts) for one-time password issuers used in Raivo OTP</b>
     <br/>
     <sup>Raivo OTP is built by <a href="https://www.linkedin.com/in/tijme/">Tijme Gommers</a> – Buy me a coffee via <a href="https://www.paypal.me/tijmegommers">PayPal</a></sup>
     <br/>
