@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Raivo OTP issuer icons</h1>
 <p align="center">
-    <a href="https://github.com/raivo-otp/ios-application/blob/master/LICENSE.md"><img src="https://raw.finnwea.com/shield/?firstText=License&secondText=CC%20BY-NC%204.0" /></a>
+    <a href="https://github.com/raivo-otp/issuer-icons/blob/master/LICENSE.md"><img src="https://raw.finnwea.com/shield/?firstText=Source&secondText=Licensed" /></a>
     <a href="https://travis-ci.org/raivo-otp/issuer-icons"><img src="https://raw.finnwea.com/vector-shields-v1/?typeKey=TravisBuildStatus&typeValue1=raivo-otp/issuer-icons&typeValue2=master" /></a>
     <a href="https://github.com/raivo-otp/issuer-icons/releases"><img src="https://raw.finnwea.com/vector-shields-v1/?typeKey=SemverVersion&typeValue1=raivo-otp&typeValue2=issuer-icons&typeValue4=Release&cache=4"></a>
     <br/>
@@ -67,4 +67,4 @@ Raivo does not collect personally identifiable information in any way. Please re
 
 ## License
 
-Copyright © 2022 Tijme Gommers. All rights reserved. View [LICENSE.md](https://github.com/raivo-otp/issuer-icons/blob/master/LICENSE.md) for the full license.
+The source of Raivo OTP is copyrighted but available to anyone on the internet. You can use it in accordence of the license. View [LICENSE.md](https://github.com/raivo-otp/issuer-icons/blob/master/LICENSE.md) for the full license.
