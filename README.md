@@ -59,7 +59,7 @@ For best practice examples, check the SVG of e.g. [Amazon](https://raw.githubuse
 
 ## Security
 
-If you discover a security vulnerability, we would like to know about it so we can take steps to address it as quickly as possible. Please refer to the [security policy](https://github.com/raivo-otp/issuer-icons/blob/master/SECURITY.md) for information on reporting vulnerabilities.
+If you discover a security vulnerability, we would like to know about it so we can take steps to address it as quickly as possible. Please report your vulnerability via our [HackerOne](https://hackerone.com/raivo) program. If you want to know more about how we keep Raivo OTP secure, check out the [security policy](https://github.com/raivo-otp/issuer-icons/blob/master/SECURITY.md).
 
 ## Privacy
 
