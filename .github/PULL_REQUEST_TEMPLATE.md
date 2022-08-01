@@ -1,9 +1,3 @@
-# Description
-
-> Describe your changes in detail. For example "Added an issuer icon for domain example.tld".
-
-ToDo
-
 # Requirements
 
 > Go over all the following points, and put an `x` in all the boxes that apply.
