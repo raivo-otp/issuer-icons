@@ -41,4 +41,3 @@ jobs:
           exclude_assets: '.gitignore'
           enable_jekyll: false
           keep_files: true
-          force_orphan: true
