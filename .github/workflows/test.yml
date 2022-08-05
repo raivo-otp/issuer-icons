@@ -32,3 +32,9 @@ jobs:
       # Generate icons & validate icons
       - name: Validate all icons and metadata
         run: python scripts/validate.py
+
+      # Add 'requirements not met' lable on fail
+      - uses: actions-ecosystem/action-add-labels@v1
+        if: ${{ failure() }}
+        with:
+          labels: 'requirements not met'
