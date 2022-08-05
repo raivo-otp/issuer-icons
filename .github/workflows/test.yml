@@ -31,4 +31,20 @@ jobs:
 
       # Generate icons & validate icons
       - name: Validate all icons and metadata
+        id: validation
         run: python scripts/validate.py
+        continue-on-error: true
+
+      # Add 'requirements not met' label on fail
+      - uses: actions-ecosystem/action-add-labels@v1
+        if: steps.step1.outputs.status != 'success'
+        with:
+          labels: 'requirements not met'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Remove 'requirements not met' on succeed
+      - uses: actions-ecosystem/action-remove-labels@v1
+        if: steps.step1.outputs.status == 'success'
+        with:
+          labels: 'requirements not met'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
