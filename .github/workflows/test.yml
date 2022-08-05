@@ -36,15 +36,15 @@ jobs:
         continue-on-error: true
 
       # Add 'requirements not met' label on fail
-      - uses: actions-ecosystem/action-add-labels@v1
+      - uses: dessant/label-actions@v2
         if: steps.step1.outputs.status != 'success'
         with:
-          labels: 'requirements not met'
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          process-only: 'prs'
+          config-path: '.github/requirements-not-met-add-label.yml'
 
       # Remove 'requirements not met' on succeed
-      - uses: actions-ecosystem/action-remove-labels@v1
+      - uses: dessant/label-actions@v2
         if: steps.step1.outputs.status == 'success'
         with:
-          labels: 'requirements not met'
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          process-only: 'prs'
+          config-path: '.github/requirements-not-met-del-label.yml'
