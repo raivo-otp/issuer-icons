@@ -33,18 +33,3 @@ jobs:
       - name: Validate all icons and metadata
         id: validation
         run: python scripts/validate.py
-        continue-on-error: true
-
-      # Add 'requirements not met' label on fail
-      - name: Add 'requirements not met' label
-        uses: actions-ecosystem/action-add-labels@v1
-        if: steps.step1.outputs.status != 'success'
-        with:
-          labels: requirements-not-met
-
-      # Remove 'requirements not met' label on succeed
-      - name: Remove 'requirements not met' label
-        uses: actions-ecosystem/action-remove-labels@v1
-        if: steps.step1.outputs.status == 'success'
-        with:
-          labels: requirements-not-met
