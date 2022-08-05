@@ -1,0 +1,4 @@
+'requirements not met':
+  # Post a comment
+  comment: >
+    Just a friendly reminder that one or more icons in your pull request do not adhere to the requirements. Therefore, this pull request cannot be merged until all requirements are met.
