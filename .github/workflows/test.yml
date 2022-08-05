@@ -40,9 +40,11 @@ jobs:
         if: steps.step1.outputs.status != 'success'
         with:
           labels: 'requirements not met'
+          github_token: ${{ github.token }}
 
       # Remove 'requirements not met' on succeed
       - uses: actions-ecosystem/action-remove-labels@v1
         if: steps.step1.outputs.status == 'success'
         with:
           labels: 'requirements not met'
+          github_token: ${{ github.token }}
