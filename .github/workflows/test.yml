@@ -36,15 +36,15 @@ jobs:
         continue-on-error: true
 
       # Add 'requirements not met' label on fail
-      - uses: dessant/label-actions@v2
+      - name: Add 'requirements not met' label
+        uses: actions-ecosystem/action-add-labels@v1
         if: steps.step1.outputs.status != 'success'
         with:
-          process-only: 'prs'
-          config-path: '.github/requirements-not-met-add-label.yml'
+          labels: requirements-not-met
 
-      # Remove 'requirements not met' on succeed
-      - uses: dessant/label-actions@v2
+      # Remove 'requirements not met' label on succeed
+      - name: Remove 'requirements not met' label
+        uses: actions-ecosystem/action-remove-labels@v1
         if: steps.step1.outputs.status == 'success'
         with:
-          process-only: 'prs'
-          config-path: '.github/requirements-not-met-del-label.yml'
+          labels: requirements-not-met
