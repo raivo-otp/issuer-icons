@@ -55,6 +55,10 @@ If you want to contribute and add an issuer icon, make sure it adheres to the fo
 * Can be any color (including white and black).
     * Raivo OTP will apply effects so the icons are correctly visible in light/dark mode.
 
+You may run the validation script before contributing a pull request to double check if your icon meets the requirements:
+
+    python scripts/validate.py
+
 For best practice examples, check the SVG of e.g. [Amazon](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/amazon.com/amazon.svg), [Adobe](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/adobe.com/adobe.svg) or [Bitbucket](https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/bitbucket.com/bitbucket.svg).
 
 ## Security
