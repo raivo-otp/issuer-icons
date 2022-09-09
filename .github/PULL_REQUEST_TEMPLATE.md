@@ -8,4 +8,5 @@
 - [ ] My issuer icon(s) are scalable (they use `viewBox` instead of a static width/height).
 - [ ] My issuer icon(s) do not contain whitespace around the SVG ([this](https://jsfiddle.net/u9x423ph/2/) JSFiddle could help to remove whitespace).
 - [ ] My issuer icon(s) do not include the `doctype` element.
-- [ ] My issuer icon(s) file and directory names are lowercase.
+- [ ] My issuer icon(s) directory and file names are lowercase.
+- [ ] My issuer icon(s) directory and file are in the `vectors/` folder.
