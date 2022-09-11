@@ -38,6 +38,39 @@ def is_valid_domain(domain):
 
     return validators.domain(domain) == True
 
+def root_did_not_change():
+    """Check if any of the file names in the root changed
+
+    Returns:
+        bool: Positive if not changed.
+
+    """
+
+    files = os.listdir('.')
+    allowed_files = [
+        '.gitignore',
+        '.github',
+        '.git',
+        '.htaccess',
+        '.semver',
+        '.DS_Store',
+        'README.md',
+        'LICENSE.md',
+        'SECURITY.md',
+        'PRIVACY.md',
+        'requirements.txt',
+        'scripts',
+        'vectors',
+        'dist'
+    ]
+
+    for file in files:
+        if file not in allowed_files:
+            return False
+
+    return True
+
+
 def main():
     """Run the validation on all vector issuer icons."""
 
@@ -49,7 +82,8 @@ def main():
     print('Running validation on {} icons.'.format(len(vectors)))
 
     # Generic validations
-    guard(len(vectors) >= 450, 'It looks like many vectors were deleted. There are only {} left while there should be more than 450. Did you delete any per accident?'.format(len(vectors)))
+    guard(len(vectors) >= 680, 'It looks like many vectors were deleted. There are only {} left while there should be more than 450. Did you delete any per accident?'.format(len(vectors)))
+    guard(root_did_not_change(), 'It looks like the root of the repository changed. Are you sure you added your icon to the \'vectors/\' subdirectory?')
 
     # Icon specific validations
     for vector in vectors:
