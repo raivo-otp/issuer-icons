@@ -1,0 +1,20 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="-0.000004649162292480469 1.291308879852295 77.83377075195312 46.894893646240234" class="jsx-2259896579 jsx-261554344" version="1.1" id="svg855" sodipodi:docname="mondaycom logo.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata id="metadata861">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <defs id="defs859"></defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1017" id="namedview857" showgrid="false" showguides="true" inkscape:guide-bbox="true" inkscape:zoom="2.742126" inkscape:cx="152.96218" inkscape:cy="49.124021" inkscape:window-x="-8" inkscape:window-y="176" inkscape:window-maximized="1" inkscape:current-layer="svg855"></sodipodi:namedview>
+  <title id="title839">Logo / monday.com</title>
+  <g id="g853" style="fill:none;fill-rule:evenodd" transform="matrix(3.6956523,0,0,3.6956523,-3.7266276e-4,-19.226192)">
+    <g transform="translate(0,5.552)" id="g847" style="fill-rule:nonzero">
+      <path d="M 2.62,12.627 A 2.63,2.63 0 0 1 0.328,11.297 2.543,2.543 0 0 1 0.4,8.679 L 5.12,1.267 a 2.632,2.632 0 0 1 2.33,-1.266 2.627,2.627 0 0 1 2.255,1.39 c 0.44,0.832 0.385,1.833 -0.142,2.614 l -4.717,7.412 a 2.631,2.631 0 0 1 -2.226,1.21 z" id="path841" inkscape:connector-curvature="0" style="fill:#f62b54"></path>
+      <path d="M 10.716,12.627 C 9.764,12.627 8.888,12.118 8.428,11.3 A 2.535,2.535 0 0 1 8.5,8.689 l 4.711,-7.395 a 2.628,2.628 0 0 1 2.332,-1.293 c 0.96,0.021 1.83,0.558 2.27,1.398 0.437,0.84 0.373,1.847 -0.17,2.626 l -4.71,7.395 a 2.627,2.627 0 0 1 -2.217,1.207 z" id="path843" inkscape:connector-curvature="0" style="fill:#ffcc00"></path>
+      <ellipse cx="18.631001" cy="10.31" rx="2.4300001" ry="2.3789999" id="ellipse845" style="fill:#00ca72"></ellipse>
+    </g>
+</g>
+</svg>
