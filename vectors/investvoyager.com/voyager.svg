@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="27.83 30.45 1827.02 1828.35">
+  <defs>
+    <linearGradient id="a" x1="0" x2="1" y1="0" y2="0" gradientTransform="matrix(949.58185 0 0 -949.58185 441.553 672.524)" gradientUnits="userSpaceOnUse" spreadMethod="pad">
+      <stop offset="0" stop-color="#302988"/>
+      <stop offset="1" stop-color="#4e48dc"/>
+    </linearGradient>
+    <linearGradient id="b" x1="0" x2="1" y1="0" y2="0" gradientTransform="matrix(0 1318.6023 1318.6023 0 516.42 75.881)" gradientUnits="userSpaceOnUse" spreadMethod="pad">
+      <stop offset="0" stop-color="#403dbe"/>
+      <stop offset="1" stop-color="#5d62fe"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#a)" d="M441.553 75.882c81.244-33.92 170.406-52.663 263.949-52.663 378.664 0 685.633 306.968 685.633 685.632 0 268.11-153.896 500.266-378.163 612.979z" transform="matrix(1.33333 0 0 -1.33333 0 1889.76)"/>
+  <path fill="url(#b)" d="M20.869 708.351c0-285.122 174.045-529.584 421.684-632.969l571.419 1245.948c-92.477 46.477-196.914 72.653-307.47 72.653-378.664 0-685.633-306.967-685.633-685.632" transform="matrix(1.33333 0 0 -1.33333 0 1889.76)"/>
+  <g opacity=".5" transform="matrix(1.33333 0 0 -1.33333 0 1889.76)"/>
+  <path fill="#fff" d="m1470.359 418.408-222.669-1.17c-18.517-.097-35.409 11.054-42.933 28.34l-268.042 586.91-260.137-586.91c-7.524-17.286-24.416-28.437-42.933-28.34l-222.669 1.17c-16.805.088-27.782 17.762-20.706 33.34l512.244 1137.115c13.128 29.143 54.464 29.27 67.77.208L1491.067 451.75c7.076-15.579-3.903-33.253-20.708-33.341"/>
+</svg>
