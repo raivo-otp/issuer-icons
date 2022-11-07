@@ -1,0 +1,23 @@
+<svg data-slug-id="azure" version="1.1" viewBox="0 0 233.98 220.47" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="c" x1="-960.61" x2="-1032.5" y1="283.4" y2="70.972" gradientTransform="matrix(1 0 0 -1 1063.8 299.73)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#114a8b" offset="0"/>
+   <stop stop-color="#0669bc" offset="1"/>
+  </linearGradient>
+  <linearGradient id="a" x1="-938.14" x2="-954.78" y1="184.4" y2="178.78" gradientTransform="matrix(1 0 0 -1 1063.8 299.73)" gradientUnits="userSpaceOnUse">
+   <stop stop-opacity=".3" offset="0"/>
+   <stop stop-opacity=".2" offset=".071"/>
+   <stop stop-opacity=".1" offset=".321"/>
+   <stop stop-opacity=".05" offset=".623"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="b" x1="-947.29" x2="-868.36" y1="289.59" y2="79.308" gradientTransform="matrix(1 0 0 -1 1063.8 299.73)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#3ccbf4" offset="0"/>
+   <stop stop-color="#2892df" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m78.003 7.6039e-5h69.238l-71.873 212.96a11.041 11.041 0 0 1-10.461 7.51h-53.883a11.023 11.023 0 0 1-10.445-14.548l66.963-198.41a11.04 11.04 0 0 1 10.461-7.51z" fill="url(#c)"/>
+ <path d="m178.61 142.84h-109.79a5.083 5.083 0 0 0-3.468 8.8l70.552 65.847a11.091 11.091 0 0 0 7.567 2.983h62.167z" fill="#0078d4"/>
+ <path d="m78.003 7.6039e-5a10.95 10.95 0 0 0-10.483 7.654l-66.858 198.09a11.01 11.01 0 0 0 10.393 14.728h55.274a11.814 11.814 0 0 0 9.069-7.714l13.33-39.29 47.625 44.418a11.267 11.267 0 0 0 7.089 2.586h61.937l-27.166-77.63-79.19 0.018 48.47-142.86z" fill="url(#a)"/>
+ <path d="m166.44 7.4981a11.023 11.023 0 0 0-10.444-7.498h-77.164a11.024 11.024 0 0 1 10.445 7.498l66.967 198.42a11.024 11.024 0 0 1-10.445 14.549h77.164a11.024 11.024 0 0 0 10.444-14.549z" fill="url(#b)"/>
+</svg>

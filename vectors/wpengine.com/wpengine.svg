@@ -1,0 +1,22 @@
+<svg id="WPE-LOGO-S-Default" version="1.1" viewBox="0.0018310546875 0 100.00225830078125 100.0032958984375" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1 {
+        fill: #0ecad4;
+      }
+
+      .cls-2 {
+        fill: #002838;
+      }</style>
+  </defs>
+  <g id="logomark" transform="matrix(.92515 0 0 .9251 .00092515 0)">
+    <path class="cls-1" transform="translate(-222.72 -315.51)" d="m259.4 423.61h34.729v-26.42l-8.307-8.308h-18.117l-8.3 8.306z" data-name="Path 82"></path>
+    <path class="cls-1" transform="translate(-283.51 -254.72)" d="m365.18 291.4-8.309 8.309v18.115l8.309 8.306h26.418v-34.73z" data-name="Path 83"></path>
+    <path class="cls-1" transform="translate(-222.72 -193.92)" d="m294.13 193.92h-34.731v26.424l8.306 8.306h18.115l8.308-8.306z" data-name="Path 84"></path>
+    <path class="cls-1" transform="translate(-283.51 -315.51)" d="m391.6 423.61v-26.42l-8.3-8.309h-26.424v34.728z" data-name="Path 85"></path>
+    <path class="cls-1" transform="translate(-161.92 -193.92)" d="m170.23 193.92-8.306 8.309v26.419h34.729v-34.728z" data-name="Path 86"></path>
+    <path class="cls-1" transform="translate(-283.51 -193.92)" d="m356.88 193.92v26.424l8.309 8.306h26.415v-34.73z" data-name="Path 87"></path>
+    <path class="cls-1" transform="translate(-243.24 -275.25)" d="m297.29 334.28a4.975 4.975 0 1 1 4.975-4.975 4.975 4.975 0 0 1-4.975 4.975" data-name="Path 88"></path>
+    <path class="cls-1" transform="translate(-161.92 -254.72)" d="m196.65 291.4h-34.729v34.73h26.421l8.308-8.306z" data-name="Path 89"></path>
+    <path class="cls-1" transform="translate(-161.92 -315.51)" d="m196.65 397.18-8.308-8.308h-26.421v34.73h26.421l8.308-8.3z" data-name="Path 90"></path>
+  </g>
+</svg>
