@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-150 -150 300 300">
+<path d="m0 87.5c-66 0-117.5-54.5-139-87.5 21.5-33 73-87.5 139-87.5s117.5 54.5 139 87.5c-21.5 33-73 87.5-139 87.5z" stroke="#396" stroke-width="16" fill="#fff"/>
+<circle stroke-width="19" stroke="#069" r="47.5" fill="none"/>
+<g id="a">
+	<g id="b">
+		<g id="c" fill="#069">
+			<path id="e" d="m7.2-47-1.2-21h-12l-1.236 21"/>
+			<use xlink:href="#e" transform="scale(1,-1)"/>
+		</g>
+		<use xlink:href="#c" transform="rotate(90)"/>
+	</g>
+	<use xlink:href="#b" transform="rotate(45)"/>
+</g>
+<use xlink:href="#a" transform="rotate(22.5)"/>
+<circle r="23" fill="#900"/>
+</svg>
