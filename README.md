@@ -52,6 +52,7 @@ If you want to contribute and add an issuer icon, make sure it adheres to the fo
 * Must **not** include the doctype element.
 * The file and directory name must be lowercase.
 * Must be in the `vectors/` directory.
+* One logo per pull request.
 
 **Can:**
 * Can be any color (including white and black).
