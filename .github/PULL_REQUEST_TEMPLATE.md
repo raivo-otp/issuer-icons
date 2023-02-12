@@ -10,5 +10,5 @@
 - [ ] My issuer icon does not contain whitespace around the SVG ([this](https://jsfiddle.net/u9x423ph/2/) JSFiddle could help to remove whitespace).
 - [ ] My issuer icon does not include the `doctype` element.
 - [ ] My issuer icon directory and file name is lowercase.
-- [ ] My issuer icon directory and file are in the `vectors/` folder.
+- [ ] My issuer icon directory and file are in the `vectors/[domain name]/` folder.
 - [ ] My pull request contains just one icon.
