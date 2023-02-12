@@ -82,7 +82,7 @@ def main():
     print('Running validation on {} icons.'.format(len(vectors)))
 
     # Generic validations
-    guard(len(vectors) >= 680, 'It looks like many vectors were deleted. There are only {} left while there should be more than 450. Did you delete any per accident?'.format(len(vectors)))
+    guard(len(vectors) >= 900, 'It looks like many vectors were deleted. There are only {} left while there should be more than 900. Did you delete any per accident?'.format(len(vectors)))
     guard(root_did_not_change(), 'It looks like the root of the repository changed. Are you sure you added your icon to the \'vectors/\' subdirectory?')
 
     # Icon specific validations
