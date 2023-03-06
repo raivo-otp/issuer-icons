@@ -1,0 +1,7 @@
+<svg viewBox="0 0 65.4 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="wellfound" transform="matrix(1,0,0,1,0,-0.5)">
+        <path d="M9.533,33.116L0,0.871L8.874,0.871L14.495,24.059L20.611,0.871L29.508,0.871L35.624,24.059L41.245,0.871L50.118,0.871L40.479,33.116L31.028,33.116L25.065,9.829L18.984,33.116L9.533,33.116Z" style="fill-rule:nonzero;"/>
+        <path d="M60.23,33.5C63.081,33.5 65.392,31.073 65.392,28.08C65.392,25.087 63.081,22.661 60.23,22.661C57.38,22.661 55.069,25.087 55.069,28.08C55.069,31.073 57.38,33.5 60.23,33.5Z" style="fill:rgb(234,44,0);fill-rule:nonzero;"/>
+        <path d="M60.23,11.339C63.081,11.339 65.392,8.913 65.392,5.92C65.392,2.926 63.081,0.5 60.23,0.5C57.38,0.5 55.069,2.926 55.069,5.92C55.069,8.913 57.38,11.339 60.23,11.339Z" style="fill:rgb(234,44,0);fill-rule:nonzero;"/>
+    </g>
+</svg>

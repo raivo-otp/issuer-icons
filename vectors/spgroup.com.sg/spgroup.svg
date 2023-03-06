@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-miterlimit="1.414" viewBox="5 9.667007446289062 280.3340148925781 279" clip-rule="evenodd" stroke-linejoin="round">
+  <ellipse cx="145.167" cy="149.167" fill="url(#a)" rx="140.167" ry="139.5"></ellipse>
+  <clipPath id="b">
+    <ellipse cx="145.167" cy="149.167" rx="140.167" ry="139.5"></ellipse>
+  </clipPath>
+  <g clip-path="url(#b)">
+    <path fill="#fff" d="M167.768 11.474c2.985.483 5.94 1.06 8.858 1.727-24.948.28-35.506 17.78-34.293 30.4-2.19 45.18 116.31 69.14 112 144.67-4.467 78.32-93.84 101.64-123.666 98.67l-9.603-.32c-3.29-.57-6.543-1.25-9.75-2.04h7.02c41.817.78 43.99-19.9 43.666-30.23.408-46.75-116.317-67.48-112.333-144.66 3.656-70.84 75.403-96.12 118.1-98.19z"></path>
+    <path fill="url(#c)" d="M167.76 11.475c2.985.482 5.938 1.058 8.857 1.726-24.942.28-35.497 17.78-34.284 30.4-.818 16.88 15.214 30.8 35.394 45.56-35.5 19.19-92.816 14.46-124.558 46.41-2.68-7.89-3.99-16.46-3.51-25.88 3.65-70.84 75.39-96.11 118.09-98.19z"></path>
+    <path fill="url(#d)" d="M173.667 11.333C169.18 10.553 49.913 14.46 45 109.667c-4.575 88.654 114.622 98.02 117 144.666 3.128-42.676-116.73-69.695-112.333-144.666 4.498-76.715 81.11-97.053 124-98.334z"></path>
+    <path fill="url(#e)" d="M130.667 286.595c4.86 5.91 125.942-8.46 128.666-98.334 2.745-90.55-116.543-96.52-117-144.66-2.19 45.18 116.31 69.14 112 144.67-4.467 78.32-93.84 101.31-123.666 98.34z"></path>
+    <path fill="url(#f)" d="M254.333 180.316v7.945c-4.467 78.32-93.84 101.64-123.666 98.67l-5.448-.18c-3.57-.59-7.09-1.32-10.56-2.18h3.67c41.82.78 43.99-19.9 43.67-30.23.09-10.22-5.42-19.19-14.04-27.78 33.35-15.63 70.26-8.22 105.49-53.73.43 2.44.72 4.94.87 7.51z"></path>
+  </g>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(117.227 89.863 82.496) scale(257.91)">
+      <stop offset="0" stop-color="#f2f2f2"></stop>
+      <stop offset=".18" stop-color="#7dd5d6"></stop>
+      <stop offset=".54" stop-color="#119aaa"></stop>
+      <stop offset="1" stop-color="#063266"></stop>
+    </radialGradient>
+    <linearGradient id="c" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(49.567 73.513) scale(127.166)">
+      <stop offset="0" stop-color="#cfeaf0"></stop>
+      <stop offset=".48" stop-color="#f4fafb"></stop>
+      <stop offset="1" stop-color="#fff"></stop>
+    </linearGradient>
+    <linearGradient id="d" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 48.897 60.372) scale(242.86)">
+      <stop offset="0" stop-color="#517697"></stop>
+      <stop offset=".24" stop-color="#75b0be"></stop>
+      <stop offset=".43" stop-color="#85cad0"></stop>
+      <stop offset=".67" stop-color="#6ca1b4"></stop>
+      <stop offset="1" stop-color="#344777"></stop>
+    </linearGradient>
+    <linearGradient id="e" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="scale(242.705 243.944) rotate(-90 .99 .188)">
+      <stop offset="0" stop-color="#517697"></stop>
+      <stop offset=".21" stop-color="#75b0bf"></stop>
+      <stop offset=".37" stop-color="#85cad0"></stop>
+      <stop offset=".66" stop-color="#6ea5b7"></stop>
+      <stop offset="1" stop-color="#344777"></stop>
+    </linearGradient>
+    <linearGradient id="f" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-179.863 127.205 89.183) scale(139.786)">
+      <stop offset="0" stop-color="#cfeaf0"></stop>
+      <stop offset=".52" stop-color="#f2f9fb"></stop>
+      <stop offset="1" stop-color="#fff"></stop>
+    </linearGradient>
+  </defs>
+</svg>

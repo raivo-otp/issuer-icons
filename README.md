@@ -44,13 +44,15 @@ If you want to contribute and add an issuer icon, make sure it adheres to the fo
     * Do not embed JPG/PNG/etc in the SVG
 * Must be a (somewhat) square icon. 
     * Prevent the use of textual icons.
+* Must be the original brand logo, not that from an icon pack.
 * Must start with the `<svg>` opening element
 * Must end with the `</svg>` closing element
 * Must be scalable (must not have static width/height attributes, use a viewBox instead).
 * Must **not** contain whitespace around the SVG ([this](https://jsfiddle.net/u9x423ph/2/) JSFiddle could help to remove whitespace).
 * Must **not** include the doctype element.
 * The file and directory name must be lowercase.
-* Must be in the `vectors/` directory.
+* Must be in the `vectors/[domain name]/` directory.
+* One logo per pull request.
 
 **Can:**
 * Can be any color (including white and black).

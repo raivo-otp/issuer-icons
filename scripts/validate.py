@@ -70,6 +70,21 @@ def root_did_not_change():
 
     return True
 
+def vectors_all_in_subfolders():
+    """Check that all .svg files are in subfolders
+
+    Returns:
+        bool: Positive if all .svg files are in subfolders
+
+    """
+
+    try:
+        svgs = glob.glob('./vectors/*.svg')
+    except:
+        svgs = []
+
+    return len(svgs) == 0
+
 
 def main():
     """Run the validation on all vector issuer icons."""
@@ -82,8 +97,9 @@ def main():
     print('Running validation on {} icons.'.format(len(vectors)))
 
     # Generic validations
-    guard(len(vectors) >= 680, 'It looks like many vectors were deleted. There are only {} left while there should be more than 450. Did you delete any per accident?'.format(len(vectors)))
+    guard(len(vectors) >= 900, 'It looks like many vectors were deleted. There are only {} left while there should be more than 900. Did you delete any per accident?'.format(len(vectors)))
     guard(root_did_not_change(), 'It looks like the root of the repository changed. Are you sure you added your icon to the \'vectors/\' subdirectory?')
+    guard(vectors_all_in_subfolders(), 'It looks like there are .svg files in the root of the \'vectors/\' directory. All vectors must be in subfolders.')
 
     # Icon specific validations
     for vector in vectors:
