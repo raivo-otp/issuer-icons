@@ -90,7 +90,8 @@ def main():
     """Run the validation on all vector issuer icons."""
 
     try:
-        vectors = glob.glob('./vectors/*/*.svg')
+        # Normalise OS path seperator to '/' (e.g. when running on Windows).
+        vectors = [path.replace(os.path.sep, '/') for path in glob.glob('./vectors/*/*.svg')]
     except:
         vectors = []
 
