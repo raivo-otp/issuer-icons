@@ -1,12 +1,4 @@
-<svg viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,0,386.8)">
-        <g id="Blue_Navy">
-            <g transform="matrix(1.08544,0,0,1.24646,-32.5651,-494.039)">
-                <rect x="30.002" y="86.035" width="471.698" height="410.764" style="fill:rgb(46,67,105);stroke:rgb(46,67,105);stroke-width:0.86px;"/>
-            </g>
-            <g id="FF_7_" transform="matrix(1.89419,0,0,1.89419,63.4559,-345.317)">
-                <path d="M60,62.5L0,119.9L102.1,119.9L112.7,94.9L61,94.9L93.3,62.5L74.6,30.2L162.3,30.2L81.3,221.3L111.7,221.3L203.3,5.2L26.3,5.2L60,62.5Z" style="fill:rgb(0,185,255);fill-rule:nonzero;"/>
-            </g>
-        </g>
-    </g>
+<svg viewBox="0 0 1510 1510" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect x="0" y="0" width="1510" height="1510" style="fill:rgb(160,232,110);stroke:rgb(160,232,110);stroke-width:1px;"/>
+    <path d="M455.43,419.509L1088.73,419.498L843.344,1093.48L704.257,1093.49L907.798,534.486L646.45,534.491L704.609,636.059L614.441,740.51L760.731,740.506L722.36,846.487L380.86,846.506L571.525,622.482L455.43,419.509Z" style="fill:rgb(23,49,2);stroke:rgb(23,49,2);stroke-width:1px;"/>
 </svg>
