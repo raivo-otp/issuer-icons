@@ -1,0 +1,11 @@
+<svg viewBox="261.7049865722656 19.77899932861328 103.1190185546875 77.02100372314453" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Layer1">
+        <path d="M261.705,96.8L351.845,19.792L364.776,19.779L364.816,96.796L350.825,94.259L350.795,38.748L281.838,96.8L261.705,96.8Z" style="fill:rgb(2,22,97);"></path>
+    </g>
+    <g id="Layer2">
+        <path d="M364.8,96.8C364.8,96.8 349.711,95.326 338.902,92.247C330.406,89.827 316.504,81.263 308.36,72.19C296.365,58.824 295.44,54.438 295.44,54.438L304.281,47.357C304.281,47.357 305.897,51.428 319.119,65.645C323.431,70.283 331.754,76.839 340.936,79.952C351.78,83.63 364.824,84.047 364.824,84.047L364.8,96.8Z" style="fill:url(#_Linear1);"></path>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(63.4994,39.3674,-28.3471,45.7237,299.636,51.1976)"><stop offset="0" style="stop-color:rgb(161,15,155);stop-opacity:1"></stop><stop offset="1" style="stop-color:rgb(108,7,253);stop-opacity:1"></stop></linearGradient>
+    </defs>
+</svg>
