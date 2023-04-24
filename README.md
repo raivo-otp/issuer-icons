@@ -51,7 +51,7 @@ If you want to contribute and add an issuer icon, make sure it adheres to the fo
 * Must **not** contain whitespace around the SVG ([this](https://jsfiddle.net/u9x423ph/2/) JSFiddle could help to remove whitespace).
 * Must **not** include the doctype element.
 * The file and directory name must be lowercase.
-* Must be in the `vectors/[domain name]/` directory.
+* Must be in the `vectors/[domain name]/` directory. If it's a website, directory should be named `example.com`, for an app - `example.app`
 * One logo per pull request.
 
 **Can:**
