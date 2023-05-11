@@ -1,0 +1,15 @@
+<svg viewBox="0 0 21.207000732421875 22.930999755859375" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!--
+    The logo of Namebase, Inc
+    Removed "namebase" from svg and whitespace with https://jsfiddle.net/u9x423ph/2/
+    -->
+    <defs>
+        <linearGradient id="paint0_linear" x1="14.613" y1="2.29162" x2="19.0604" y2="6.63317" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF5980"></stop>
+            <stop offset="1" stop-color="#FFA882"></stop>
+        </linearGradient>
+    </defs>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9629 4.59767C20.2023 4.59767 21.207 3.56845 21.207 2.29883C21.207 1.02922 20.2023 0 18.9629 0C17.7235 0 16.7188 1.02922 16.7188 2.29883C16.7188 3.56845 17.7235 4.59767 18.9629 4.59767Z" fill="url(#paint0_linear)"></path>
+    <path d="M10.2107 2.81616C15.8499 2.81616 20.4214 7.49913 20.4214 13.2759V22.931H14.1379V13.2759C14.1379 11.054 12.3796 9.2529 10.2107 9.2529V2.81616Z" fill="#007FFF"></path>
+    <path d="M10.2107 2.81616C4.5715 2.81616 0 7.49913 0 13.2759V22.931H6.28352V13.2759C6.28352 11.054 8.04179 9.2529 10.2107 9.2529V2.81616Z" fill="#FFB700"></path>
+</svg>
