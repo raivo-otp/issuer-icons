@@ -31,8 +31,8 @@
 The example below shows how icons can be added for the services "Microsoft" and "Microsoft OneDrive".
 
 1. Create the directory with the primary domain name `./vectors/microsoft.com`.
-2. Add a scalable Microsoft logo SVG (that meets the [requirements](#svg-requirements)) at `./vectors/microsoft.com/microsoft.svg`.
-3. Add a scalable Microsoft OneDrive logo SVG (that meets the [requirements](#svg-requirements)) at `./vectors/microsoft.com/microsoft-onedrive.svg`.
+2. Add a scalable Microsoft logo SVG (that meets the [requirements](#requirements)) at `./vectors/microsoft.com/microsoft.svg`.
+3. Add a scalable Microsoft OneDrive logo SVG (that meets the [requirements](#requirements)) at `./vectors/microsoft.com/microsoft-onedrive.svg`.
 
 ### Requirements
 
