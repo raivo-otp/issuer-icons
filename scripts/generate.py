@@ -70,6 +70,8 @@ def generate_html(manifest):
                         display: block;
                         padding: 23.5px 0px;
                         border-radius: 5px;
+                        width: 153px;
+                        height: 153px;
                     }
 
                     .issuer-icon a:hover {
