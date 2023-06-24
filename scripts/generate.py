@@ -124,7 +124,7 @@ def generate_html(manifest):
             contents = contents + """
                 <div class="issuer-icon">
                     <a href="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/{}" target="_blank">
-                        <img src="https://icons.raivo-top.com/{}" alt="Scalable Vector Graphics (SVG) logo of {}" />
+                        <img src="https://icons.raivo-otp.com/{}" alt="Scalable Vector Graphics (SVG) logo of {}" />
                     </a>
                     <p>{}</p>
                 </div>
