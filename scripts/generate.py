@@ -40,7 +40,7 @@ def generate_html(manifest):
 
     """
 
-    html = """
+    contents = """
         <!DOCTYPE html>
         <html lang="en-us">
             <head>
@@ -121,7 +121,7 @@ def generate_html(manifest):
         for icon in data["icons"]:
             amount_of_icons = amount_of_icons + 1
 
-            html = html + """
+            contents = contents + """
                 <div class="issuer-icon">
                     <a href="https://raw.githubusercontent.com/raivo-otp/issuer-icons/master/vectors/{}" target="_blank">
                         <img src="https://icons.raivo-top.com/{}" alt="Scalable Vector Graphics (SVG) logo of {}" />
@@ -130,7 +130,7 @@ def generate_html(manifest):
                 </div>
             """.format(html.escape(icon[0:-3] + "svg"), html.escape(icon), html.escape(domain), html.escape(domain))
 
-    result = html + """
+    result = contents + """
                             </div>
                         </article>
                         <footer>
