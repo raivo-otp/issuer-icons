@@ -1,0 +1,26 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="Calque_1" data-name="Calque 1" viewBox="27.889036178588867 27.721332550048828 242.692138671875 184.78526306152344" version="1.1" sodipodi:docname="La Poste logo.svg" inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata id="metadata31">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title>La Poste logo</dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <defs id="defs29">
+    <linearGradient inkscape:collect="always" id="linearGradient832">
+      <stop style="stop-color:#f0e63c;stop-opacity:1" offset="0" id="stop828"></stop>
+      <stop style="stop-color:#e6af32;stop-opacity:1" offset="1" id="stop830"></stop>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient832" id="linearGradient836" gradientUnits="userSpaceOnUse" x1="44.676788" y1="94.490555" x2="213.14938" y2="182.84714"></linearGradient>
+  </defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="784" inkscape:window-height="821" id="namedview27" showgrid="false" inkscape:zoom="1.6005749" inkscape:cx="118.68815" inkscape:cy="186.61906" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="0" inkscape:current-layer="Calque_1"></sodipodi:namedview>
+  <path style="fill:url(#linearGradient836);stroke-width:0.23972674;fill-opacity:1" d="M 110.03278,212.33289 C 81.335527,211.05968 50.293437,199.64348 35.36701,173.56274 21.368375,148.92948 28.551467,117.86131 44.306779,95.871553 69.297144,60.279484 110.29056,38.022732 152.52979,30.257343 c 32.41956,-5.745908 68.92375,-2.613541 95.40927,18.624045 17.97411,14.131242 26.09247,38.524172 21.27684,60.735432 -7.10899,34.3057 -33.95143,61.02029 -63.2182,78.27403 -28.83062,16.80057 -62.52814,26.01726 -95.96492,24.44204 z" id="path3722" inkscape:connector-curvature="0"></path>
+  <!--1-->
+  <path style="fill:#003da5;fill-opacity:1" d="M97.534,87.224c5.39,1.934,22.928,8.1,32.71,14.741.323.219.943.659.943.659l72.876-1.141c.127-.172,2.809-4.894,4.4-7.939,1.741-3.339,1.859-6.2-.114-8.1-2.145-2.062-5.617-2.39-12.629-2.39H97.923c-.78,0-2.763-.134-3.083,1.471a1.736,1.736,0,0,0,.432,1.493A5.881,5.881,0,0,0,97.534,87.224Z" id="path20"></path>
+  <!--2-->
+  <path style="fill:#003da5;fill-opacity:1" d="M244.083,105.519c-1.618.045-108.323,1.676-109.978,1.741-.888.035-1.147.238-1.152,1.195-.041,7.742-10.291,15.183-24.239,21.835-14.713,7.018-33.184,14-42.784,17.535-2.288.843-6.39,2.291-7.712,2.964-1.055.536-1.786,1.366-1.451,2.329s1.4,1.456,5.053.487c1.633-.434,3.471-.882,5.495-1.409,18.431-4.8,52.189-13.249,85.067-21.462,34.045-8.5,67.609-15.856,92.214-20.291,1.933-.348,3.528-1.392,3.446-2.863C247.966,106.206,246.368,105.455,244.083,105.519Z" id="path22"></path>
+  <!--3-->
+  <path style="fill:#003da5;fill-opacity:1" d="M156.365,153.232c.006,0,4.8.127,8.3-1.971,5.636-3.381,13.045-9.52,23.542-24.278L75.717,154.623Z" id="path24"></path>
+</svg>

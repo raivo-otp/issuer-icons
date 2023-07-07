@@ -1,0 +1,58 @@
+<svg
+   fill="none"
+   viewBox="0 0 92 92"
+   version="1.1"
+   id="svg16488"
+   sodipodi:docname="truth-social.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16492" />
+  <sodipodi:namedview
+     id="namedview16490"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="4.2445652"
+     inkscape:cx="67.733675"
+     inkscape:cy="42.878361"
+     inkscape:window-width="1920"
+     inkscape:window-height="947"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16488">
+    <inkscape:grid
+       type="xygrid"
+       id="grid17026" />
+  </sodipodi:namedview>
+  <path
+     d="M 0,0.11794671 H 91.880255 V 91.998202 H 0 Z"
+     fill="#5448ee"
+     id="path16478"
+     style="stroke-width:1.0035" />
+  <g
+     fill="#ffffff"
+     id="g16486"
+     transform="matrix(1.4506268,0,0,1.4506268,-20.828942,-19.536537)">
+    <path
+       d="M 67.9385,54.0751 H 56.4328 v 9.3631 h 11.5057 z"
+       id="path16480"
+       style="fill:#2dd0b3;fill-opacity:1" />
+    <path
+       d="m 67.881673,37.8944 0.103288,-9.4562 H 39.9931 V 63.3466 H 51.9596 V 37.8944 Z"
+       id="path16482"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       d="m 24,28.4382 h 11.4878 v 9.4539 H 24 Z"
+       id="path16484" />
+  </g>
+</svg>

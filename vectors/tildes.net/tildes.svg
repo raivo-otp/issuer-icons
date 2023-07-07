@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 192 192">
+  <path style="fill:#6b70c3;stroke-width:1.33333" d="M 72,84 V 72 H 84 96 V 84 96 H 84 72 Z"/>
+  <path style="fill:#d23581;stroke-width:1.33333" d="M 96,108 V 96 h 12 12 v 12 12 H 108 96 Z"/>
+  <path style="fill:#258ad1;stroke-width:1.33333" d="M 48,60 V 48 H 60 72 V 60 72 H 60 48 Z"/>
+  <path style="fill:#29a097;stroke-width:1.33333" d="M 24,84 V 72 H 36 48 V 84 96 H 36 24 Z"/>
+  <path style="fill:#db312e;stroke-width:1.33333" d="m 120,132 v -12 h 12 12 v 12 12 h -12 -12 z"/>
+  <path style="fill:#9c9000;stroke-width:1.33333" d="M 0,108 V 96 h 12 12 v 12 12 H 12 0 Z M 168,84 V 72 h 12 12 v 12 12 h -12 -12 z"/>
+  <path style="fill:#ca4a15;stroke-width:1.33333" d="M 144,108 V 96 h 12 12 v 12 12 h -12 -12 z"/>
+  <path style="fill:#002a35;stroke-width:1.33333" d="M 0,156 V 120 H 12 24 V 108 96 H 12 0 V 48 0 h 96 96 v 36 36 h -12 -12 v 12 12 h 12 12 v 48 48 H 96 0 Z m 144,-24 v -12 h 12 12 V 108 96 h -12 -12 v 12 12 H 132 120 V 108 96 H 108 96 V 84 72 H 84 72 V 60 48 H 60 48 V 60 72 H 36 24 V 84 96 H 36 48 V 84 72 h 12 12 v 12 12 h 12 12 v 12 12 h 12 12 v 12 12 h 12 12 z"/>
+</svg>

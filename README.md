@@ -31,8 +31,8 @@
 The example below shows how icons can be added for the services "Microsoft" and "Microsoft OneDrive".
 
 1. Create the directory with the primary domain name `./vectors/microsoft.com`.
-2. Add a scalable Microsoft logo SVG (that meets the [requirements](#svg-requirements)) at `./vectors/microsoft.com/microsoft.svg`.
-3. Add a scalable Microsoft OneDrive logo SVG (that meets the [requirements](#svg-requirements)) at `./vectors/microsoft.com/microsoft-onedrive.svg`.
+2. Add a scalable Microsoft logo SVG (that meets the [requirements](#requirements)) at `./vectors/microsoft.com/microsoft.svg`.
+3. Add a scalable Microsoft OneDrive logo SVG (that meets the [requirements](#requirements)) at `./vectors/microsoft.com/microsoft-onedrive.svg`.
 
 ### Requirements
 
@@ -51,7 +51,7 @@ If you want to contribute and add an issuer icon, make sure it adheres to the fo
 * Must **not** contain whitespace around the SVG ([this](https://jsfiddle.net/u9x423ph/2/) JSFiddle could help to remove whitespace).
 * Must **not** include the doctype element.
 * The file and directory name must be lowercase.
-* Must be in the `vectors/[domain name]/` directory.
+* Must be in the `vectors/[domain name]/` directory. If the service doesn't have a domain, use `[app name].app`.
 * One logo per pull request.
 
 **Can:**
