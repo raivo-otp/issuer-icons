@@ -3,9 +3,8 @@
 </p>
 <h1 align="center">Raivo OTP issuer icons</h1>
 <p align="center">
-    <a href="https://github.com/raivo-otp/issuer-icons/blob/master/LICENSE.md"><img src="https://raw.finnwea.com/shield/?firstText=Source&secondText=Licensed" /></a>
-    <a href="https://travis-ci.org/raivo-otp/issuer-icons"><img src="https://raw.finnwea.com/vector-shields-v1/?typeKey=TravisBuildStatus&typeValue1=raivo-otp/issuer-icons&typeValue2=master" /></a>
-    <a href="https://github.com/raivo-otp/issuer-icons/releases"><img src="https://raw.finnwea.com/vector-shields-v1/?typeKey=SemverVersion&typeValue1=raivo-otp&typeValue2=issuer-icons&typeValue4=Release&cache=4"></a>
+    <a href="https://github.com/raivo-otp/issuer-icons/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/Source-Licenced-da0024?style=flat-square" /></a>
+    <a href="https://github.com/raivo-otp/issuer-icons/releases"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fraivo-otp%2Fissuer-icons%2Freleases%2Flatest&query=%24.name&style=flat-square&label=Latest&color=da0024"></a>
     <br/>
     <b>Vector icons (including test, build and deployment scripts) for one-time password issuers used in Raivo OTP</b>
     <br/>
