@@ -9,7 +9,7 @@
     <br/>
     <b>Vector icons (including test, build and deployment scripts) for one-time password issuers used in Raivo OTP</b>
     <br/>
-    <sup>Raivo OTP is built by <a href="https://www.linkedin.com/in/tijme/">Tijme Gommers</a> – Buy me a coffee via <a href="https://www.paypal.me/tijmegommers">PayPal</a></sup>
+    <sup>Raivo OTP is built by <a href="https://mobime.org/">Mobime</a></sup>
     <br/>
 </p>
 

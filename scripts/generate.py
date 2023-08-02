@@ -48,7 +48,7 @@ def generate_html(manifest):
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <title>Issuer Icons for Raivo OTP</title>
                 <meta name="description" content="Scalable Vector Graphics (SVG) logo's and app icons of organisations around the world.">
-                <meta name="author" content="Tijme Gommers and Raivo contributors">
+                <meta name="author" content="Mobime and Raivo contributors">
                 <link rel="shortcut icon" href="https://raivo-otp.com/img/app-icon.png">
                 <meta name="apple-itunes-app" content="app-id=1459042137">
                 <style>
@@ -139,7 +139,7 @@ def generate_html(manifest):
                         </article>
                         <footer>
                             <div class="footerLinks"> <a href="https://raivo-otp.com/donate/" target="_blank" rel="noopener nofollow">Donate</a> <a href="https://raivo-otp.com/changelog/" target="_blank" rel="noopener nofollow">Changelog</a> <a href="https://raivo-otp.com/branding/" target="_blank" rel="noopener nofollow">Branding</a> <a href="https://raivo-otp.com/license/" target="_blank" rel="noopener nofollow">License</a> <a href="https://raivo-otp.com/privacy-policy/" target="_blank" rel="noopener nofollow">Privacy</a> <a href="https://raivo-otp.com/security-policy/" target="_blank" rel="noopener nofollow">Security</a></div>
-                            <p class="footerText">This website and its content is a labor of love by Raivo's <a href="https://github.com/raivo-otp/issuer-icons/graphs/contributors" target="_blank" rel="noopener nofollow">community</a> on Github.<br><small>Copyright &copy; 2023 Tijme Gommers. All rights reserved.</small></p>
+                            <p class="footerText">This website and its content is a labor of love by Raivo's <a href="https://github.com/raivo-otp/issuer-icons/graphs/contributors" target="_blank" rel="noopener nofollow">community</a> on Github.<br><small>Copyright &copy; 2023 Mobime. All rights reserved.</small></p>
                         </footer>
                     </div>
                 </div>
