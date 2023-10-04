@@ -1,4 +1,4 @@
 CairoSVG==2.7.0
 cairocffi==1.1.0
-Pillow==9.3.0
+Pillow==10.0.1
 validators==0.18.2
