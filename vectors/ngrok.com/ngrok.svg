@@ -1,0 +1,12 @@
+<svg stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<clipPath id="ArtboardFrame">
+<rect height="32" width="32" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Page-1">
+<g opacity="1">
+<path d="M3.47673e-15 3.2C-4.44089e-16 1.43269 1.43269-1.42109e-14 3.2-1.35629e-14L28.8-8.76867e-15C30.5673-8.88178e-15 32 1.43269 32 3.2L32 28.8C32 30.5673 30.5673 32 28.8 32L3.2 32C1.43269 32 7.23865e-14 30.5673 6.67036e-14 28.8L3.47673e-15 3.2Z" fill="#02238f" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M21.9862 11.048C21.7415 10.7598 21.4652 10.5112 21.1691 10.2901C20.9046 10.0967 20.6244 9.92695 20.3204 9.78879C20.1744 9.72169 20.0204 9.66642 19.8586 9.61511C19.6257 9.54011 19.373 9.48879 19.1125 9.44537L15.8283 9.44537L13.6572 11.9204L13.6572 11.6322L13.6572 9.49669L9.05063 9.49669L9.05063 22.5546L13.6572 22.5546L13.6572 16.9533L13.6572 13.7441L14.2967 13.7441L15.5796 13.7441L17.9283 13.7441L17.9836 13.7441L17.9836 13.7441L18.3428 13.7362L18.3428 22.5507L22.9494 22.5507L22.9494 14.3835C22.9494 13.6888 22.8823 13.0691 22.7481 12.5243C22.6138 11.9835 22.3612 11.4941 21.9862 11.048Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="none"/>
+</g>
+</g>
+</svg>
